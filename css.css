@@ -1,40 +1,48 @@
-/* 自定义样式 */
+/* 全局样式 */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    padding-top: 80px;
 }
 
-/* 导航栏品牌字体 */
+/* 导航栏 */
 .navbar-brand {
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-/* 主标题样式 */
-.display-4 {
-    font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 1rem;
+/* 新闻条目 */
+.news-item .date {
+    font-weight: 500;
+    color: #6c757d;
+    min-width: 100px;
+}
+.news-item .content {
+    flex: 1;
 }
 
-/* 简介段落排版 */
-.text-justify {
-    text-align: justify;
-    max-width: 800px;
-    margin: 0 auto;
+/* 奖项展示 */
+.award-section {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* 表格样式优化 */
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(0, 123, 255, 0.05);
+/* 视频颜色图例 */
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
+.red { background: #dc3545; }
+.yellow { background: #ffc107; }
+.blue { background: #0d6efd; }
 
-/* 响应式调整 */
+/* 响应式表格 */
 @media (max-width: 768px) {
-    .display-4 {
-        font-size: 2.5rem;
+    .news-item {
+        flex-direction: column;
     }
-    .table td {
-        font-size: 0.9rem;
+    .news-item .date {
+        margin-bottom: 0.5rem;
     }
 }

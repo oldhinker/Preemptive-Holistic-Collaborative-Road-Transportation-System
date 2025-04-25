@@ -3,62 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrafficFluid: ERC Advanced Grant Project</title>
-    <!-- Bootstrap CSS -->
+    <title>Preemptive Holistic Collaborative Road Transportation System - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- 自定义 CSS -->
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css5.css">
 </head>
 <body>
     <!-- 导航栏 -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">TrafficFluid</a>
+            <a class="navbar-brand" href="index.html">Preemptive Holistic Collaborative Road Transportation System</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="description.html">Description</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="distinctions.html">Distinctions</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- 主内容区 -->
-    <main class="container my-5">
-        <!-- 标题部分 -->
-        <header class="text-center mb-5">
-            <h1 class="display-4">TrafficFluid</h1>
-            <p class="lead">Lane-free Artificial-Fluid Environment for Vehicular Traffic</p>
-            <p class="text-muted">ERC Advanced Grant Project (2019-2025)</p>
-        </header>
+    <!-- 轮播图 -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel1.jpg" class="d-block w-100" alt="Traffic Simulation">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Revolutionizing Traffic Flow</h3>
+                    <p>Next-generation lane-free traffic management system</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel2.jpg" class="d-block w-100" alt="Research Team">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>ERC Advanced Grant Project</h3>
+                    <p>2019-2025 Research Initiative</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel3.jpg" class="d-block w-100" alt="Data Visualization">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Real-time Traffic Optimization</h3>
+                    <p>AI-powered traffic flow prediction and control</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
-        <!-- 简介部分 -->
-        <section id="about" class="mb-5">
-            <h2 class="mb-4">Welcome to TrafficFluid</h2>
-            <p class="text-justify">
-                TrafficFluid (2019-2025) is an ERC (European Research Council) Advanced Grant. It is one of the 222 proposals (out of 2,052 submitted) funded across all scientific disciplines in the ERC-2018-ADG call. TrafficFluid is the only project funded in Greece. This marks the second ERC Advanced Grant awarded to Prof. Papageorgiou, following TRAMAN21 (2013-2018).
-            </p>
-            <p class="text-justify">
-                Traffic congestion poses a serious threat to modern societies' economic and social life, as well as to the environment...
-            </p>
+    <!-- 主要内容 -->
+    <main class="container mt-5">
+        <!-- 项目简介 -->
+        <section class="project-intro mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="display-4">Preemptive Holistic Collaborative Road Transportation System</h1>
+                    <p class="lead">Preemptive Holistic Collaborative Road Transportation System</p>
+                    <p class="text-muted">ERC Advanced Grant Project (2019-2025)</p>
+                    
+                    <div class="erc-info bg-light p-4 rounded">
+                        <h2 class="h4">About the ERC Grant</h2>
+                        <p>TrafficFluid is one of 222 funded proposals (out of 2,052 submissions) in the ERC-2018-ADG program...</p>
+                        <p>Second ERC grant awarded to Prof. Papageorgiou following TRAMAN21 (2013-2018)</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="impact-card card border-primary">
+                        <div class="card-body">
+                            <h3 class="card-title">Project Impact</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <strong>30%</strong>
+                                    <p class="mb-0">Expected traffic flow improvement</p>
+                                </li>
+                                <li class="mb-3">
+                                    <strong>50+</strong>
+                                    <p class="mb-0">Research publications</p>
+                                </li>
+                                <li>
+                                    <strong>10</strong>
+                                    <p class="mb-0">International collaborations</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- 新闻表格 -->
-        <section id="news" class="mb-5">
-            <h2 class="mb-4">Latest News</h2>
+        <!-- 最新新闻 -->
+        <section class="latest-news">
+            <h2 class="mb-4">Latest Updates</h2>
             <div class="table-responsive">
-                <table class="table table-striped">
+                <table class="table table-hover">
                     <tbody>
                         <tr>
-                            <td class="fw-bold">07/09/2025</td>
-                            <td>TrafficFluid creates Art</td>
+                            <td class="fw-bold">07/03/2025</td>
+                            <td>TrafficFluid Art Initiative Launch</td>
                         </tr>
                         <tr>
                             <td class="fw-bold">08/11/2024</td>
-                            <td>Dr. Venkata Karteek Yanumula has been offered the position of Assistant Professor at IIT</td>
+                            <td>Dr. Yanumula appointed Assistant Professor at IIT Mandi</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">15/07/2024</td>
+                            <td>Zhejiang University Guest Lecture Series</td>
                         </tr>
                     </tbody>
                 </table>
@@ -67,14 +135,13 @@
     </main>
 
     <!-- 页脚 -->
-    <footer class="bg-dark text-light py-4">
+    <footer class="bg-dark text-white mt-5 py-4">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2023 TrafficFluid Project. ERC Advanced Grant.</p>
-            <p class="mb-0">Contact: info@trafficfluid.eu</p>
+            <p class="mb-0">&copy; 2024 TrafficFluid Project. ERC Advanced Grant.</p>
+            <p class="mb-0">Contact: contact@trafficfluid.eu</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

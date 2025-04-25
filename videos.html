@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preemptive Holistic Collaborative Road Transportation System - Video Demonstration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Preemptive Holistic Collaborative Road Transportation System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="description.html">Description</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="distinctions.html">Distinctions</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="container mt-5 pt-5">
+        <!-- 视频播放器 -->
+        <section class="video-container mb-5">
+            <h1 class="display-5 mb-4">Enhancing Expressway Ramp Merge Safety and Efficiency via Spatiotemporal Cooperative Control</h1>
+            <div class="ratio ratio-16x9 shadow-lg">
+                <video controls poster="images/video-thumbnail.jpg">
+                    <source src="videos1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- 模拟参数说明 -->
+        <div class="row g-4">
+            <!-- 颜色图例 -->
+            <div class="col-lg-4">
+                <div class="color-legend card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title mb-3">Speed Deviation Coding</h3>
+                        <div class="legend-item mb-3">
+                            <div class="color-box red"></div>
+                            <div class="legend-text">>15% below desired speed</div>
+                        </div>
+                        <div class="legend-item mb-3">
+                            <div class="color-box yellow"></div>
+                            <div class="legend-text">10-15% below desired speed</div>
+                        </div>
+                        <div class="legend-item">
+                            <div class="color-box blue"></div>
+                            <div class="legend-text"><10% deviation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 模拟场景说明 -->
+            <div class="col-lg-8">
+                <div class="simulation-info card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title mb-3">Simulation Parameters</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <h5>60 Vehicles - No Nudging</h5>
+                                <p class="text-muted">Initial speed: 0 km/h | Road length: 0.5 km</p>
+                                <p>Vehicles self-organize into wave patterns with stabilized flow at 9,900 veh/h</p>
+                            </li>
+                            <li class="mb-3">
+                                <h5>60 Vehicles - Nominal Nudging</h5>
+                                <p class="text-muted">Nudging intensity: 0.7 | Simulation duration: 1200 cycles</p>
+                                <p>Flow stabilizes at 10,500 veh/h with observable lateral movement patterns</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新闻 -->
+        <section class="latest-news mt-5">
+            <h2 class="mb-4">Latest Updates</h2>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold">10/05/2024</td>
+                            <td>Dr. Panagiotis Typaldos - Postdoctoral offer from Cornell University</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">07/04/2024</td>
+                            <td>Project extension until 30 November 2025</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">16/07/2024</td>
+                            <td>Invited talk by Ms. Fengyue Jin @ Zhejiang University</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
